@@ -1,0 +1,6 @@
+framework module Pods_venmo_draftUITests {
+  umbrella header "Pods-venmo-draftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

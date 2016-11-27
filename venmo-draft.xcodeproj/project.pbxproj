@@ -14,6 +14,21 @@
 		3D162CEE1DE4F7B700FF6398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D162CEC1DE4F7B700FF6398 /* LaunchScreen.storyboard */; };
 		3D162CF91DE4F7B700FF6398 /* venmo_draftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D162CF81DE4F7B700FF6398 /* venmo_draftTests.swift */; };
 		3D162D041DE4F7B700FF6398 /* venmo_draftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D162D031DE4F7B700FF6398 /* venmo_draftUITests.swift */; };
+		3D5E9AF51DE770C800AB369E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E9AEC1DE770C800AB369E /* Accelerate.framework */; };
+		3D5E9AF61DE770C800AB369E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E9AED1DE770C800AB369E /* AudioToolbox.framework */; };
+		3D5E9AF71DE770C800AB369E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E9AEE1DE770C800AB369E /* AVFoundation.framework */; };
+		3D5E9AF81DE770C800AB369E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E9AEF1DE770C800AB369E /* CoreLocation.framework */; };
+		3D5E9AF91DE770C800AB369E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E9AF01DE770C800AB369E /* CoreMedia.framework */; };
+		3D5E9AFA1DE770C800AB369E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E9AF11DE770C800AB369E /* MessageUI.framework */; };
+		3D5E9AFB1DE770C800AB369E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E9AF21DE770C800AB369E /* MobileCoreServices.framework */; };
+		3D5E9AFC1DE770C800AB369E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E9AF31DE770C800AB369E /* SafariServices.framework */; };
+		3D5E9AFD1DE770C800AB369E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E9AF41DE770C800AB369E /* SystemConfiguration.framework */; };
+		3D7708341DEA4FA60027F173 /* CardIO in Resources */ = {isa = PBXBuildFile; fileRef = 3D7708311DEA4FA60027F173 /* CardIO */; };
+		3D7708351DEA4FA60027F173 /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 3D7708321DEA4FA60027F173 /* Headers */; };
+		3D7708361DEA4FA60027F173 /* PayPal-iOS-SDK in Resources */ = {isa = PBXBuildFile; fileRef = 3D7708331DEA4FA60027F173 /* PayPal-iOS-SDK */; };
+		422A5E35B32BDADE5E1D2154 /* Pods_venmo_draftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA13CCD3BB5314CBFCC9BAF /* Pods_venmo_draftUITests.framework */; };
+		51E0D5C78C5CC5FB86B88024 /* Pods_venmo_draftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5B24D65AD9B60B2E414FB8 /* Pods_venmo_draftTests.framework */; };
+		65C9AE8075C5ED4EECF9435B /* Pods_venmo_draft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E7309D65BD195BFD194D30 /* Pods_venmo_draft.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		198228A046C3F91AF25929C0 /* Pods-venmo-draftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-draftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-draftTests/Pods-venmo-draftTests.release.xcconfig"; sourceTree = "<group>"; };
+		323B27A29101BB7D8781A318 /* Pods-venmo-draft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-draft.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-draft/Pods-venmo-draft.debug.xcconfig"; sourceTree = "<group>"; };
 		3D162CE01DE4F7B700FF6398 /* venmo-draft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "venmo-draft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D162CE31DE4F7B700FF6398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D162CE51DE4F7B700FF6398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,27 @@
 		3D162CFF1DE4F7B700FF6398 /* venmo-draftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "venmo-draftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D162D031DE4F7B700FF6398 /* venmo_draftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venmo_draftUITests.swift; sourceTree = "<group>"; };
 		3D162D051DE4F7B700FF6398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5E9AEC1DE770C800AB369E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3D5E9AED1DE770C800AB369E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3D5E9AEE1DE770C800AB369E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D5E9AEF1DE770C800AB369E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D5E9AF01DE770C800AB369E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3D5E9AF11DE770C800AB369E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3D5E9AF21DE770C800AB369E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3D5E9AF31DE770C800AB369E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		3D5E9AF41DE770C800AB369E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3D5E9AFE1DE7A47800AB369E /* venmo-draft-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "venmo-draft-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D7708311DEA4FA60027F173 /* CardIO */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CardIO; sourceTree = "<group>"; };
+		3D7708321DEA4FA60027F173 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Headers; sourceTree = "<group>"; };
+		3D7708331DEA4FA60027F173 /* PayPal-iOS-SDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "PayPal-iOS-SDK"; sourceTree = "<group>"; };
+		3D7708371DEA4FC00027F173 /* PayPalMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PayPalMobile.h; path = "Headers/Public/PayPal-iOS-SDK/PayPalMobile.h"; sourceTree = "<group>"; };
+		43E7309D65BD195BFD194D30 /* Pods_venmo_draft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venmo_draft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49679FDCAD2D14FD93761C0E /* Pods-venmo-draftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-draftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-draftUITests/Pods-venmo-draftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99DF018BDFAEE9F521817205 /* Pods-venmo-draftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-draftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-draftTests/Pods-venmo-draftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6614180E4B07312B48D5313 /* Pods-venmo-draft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-draft.release.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-draft/Pods-venmo-draft.release.xcconfig"; sourceTree = "<group>"; };
+		CF5B24D65AD9B60B2E414FB8 /* Pods_venmo_draftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venmo_draftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA13CCD3BB5314CBFCC9BAF /* Pods_venmo_draftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venmo_draftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23F0C7C2475DC8E3EAEF2C9 /* Pods-venmo-draftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-draftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-draftUITests/Pods-venmo-draftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5E9AF51DE770C800AB369E /* Accelerate.framework in Frameworks */,
+				3D5E9AF61DE770C800AB369E /* AudioToolbox.framework in Frameworks */,
+				3D5E9AF71DE770C800AB369E /* AVFoundation.framework in Frameworks */,
+				3D5E9AF81DE770C800AB369E /* CoreLocation.framework in Frameworks */,
+				3D5E9AF91DE770C800AB369E /* CoreMedia.framework in Frameworks */,
+				3D5E9AFA1DE770C800AB369E /* MessageUI.framework in Frameworks */,
+				3D5E9AFB1DE770C800AB369E /* MobileCoreServices.framework in Frameworks */,
+				3D5E9AFC1DE770C800AB369E /* SafariServices.framework in Frameworks */,
+				3D5E9AFD1DE770C800AB369E /* SystemConfiguration.framework in Frameworks */,
+				65C9AE8075C5ED4EECF9435B /* Pods_venmo_draft.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E0D5C78C5CC5FB86B88024 /* Pods_venmo_draftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422A5E35B32BDADE5E1D2154 /* Pods_venmo_draftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +131,9 @@
 				3D162CF71DE4F7B700FF6398 /* venmo-draftTests */,
 				3D162D021DE4F7B700FF6398 /* venmo-draftUITests */,
 				3D162CE11DE4F7B700FF6398 /* Products */,
+				C993A1487EDCEB4FA71F55B2 /* Pods */,
+				B1206465EE8CCBB912AAC309 /* Frameworks */,
+				3D5E9AFE1DE7A47800AB369E /* venmo-draft-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +178,42 @@
 			path = "venmo-draftUITests";
 			sourceTree = "<group>";
 		};
+		B1206465EE8CCBB912AAC309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D7708371DEA4FC00027F173 /* PayPalMobile.h */,
+				3D7708311DEA4FA60027F173 /* CardIO */,
+				3D7708321DEA4FA60027F173 /* Headers */,
+				3D7708331DEA4FA60027F173 /* PayPal-iOS-SDK */,
+				3D5E9AEC1DE770C800AB369E /* Accelerate.framework */,
+				3D5E9AED1DE770C800AB369E /* AudioToolbox.framework */,
+				3D5E9AEE1DE770C800AB369E /* AVFoundation.framework */,
+				3D5E9AEF1DE770C800AB369E /* CoreLocation.framework */,
+				3D5E9AF01DE770C800AB369E /* CoreMedia.framework */,
+				3D5E9AF11DE770C800AB369E /* MessageUI.framework */,
+				3D5E9AF21DE770C800AB369E /* MobileCoreServices.framework */,
+				3D5E9AF31DE770C800AB369E /* SafariServices.framework */,
+				3D5E9AF41DE770C800AB369E /* SystemConfiguration.framework */,
+				43E7309D65BD195BFD194D30 /* Pods_venmo_draft.framework */,
+				CF5B24D65AD9B60B2E414FB8 /* Pods_venmo_draftTests.framework */,
+				DFA13CCD3BB5314CBFCC9BAF /* Pods_venmo_draftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C993A1487EDCEB4FA71F55B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				323B27A29101BB7D8781A318 /* Pods-venmo-draft.debug.xcconfig */,
+				C6614180E4B07312B48D5313 /* Pods-venmo-draft.release.xcconfig */,
+				99DF018BDFAEE9F521817205 /* Pods-venmo-draftTests.debug.xcconfig */,
+				198228A046C3F91AF25929C0 /* Pods-venmo-draftTests.release.xcconfig */,
+				49679FDCAD2D14FD93761C0E /* Pods-venmo-draftUITests.debug.xcconfig */,
+				E23F0C7C2475DC8E3EAEF2C9 /* Pods-venmo-draftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D162D081DE4F7B700FF6398 /* Build configuration list for PBXNativeTarget "venmo-draft" */;
 			buildPhases = (
+				63F4E7EAA6EDC83CD85614CA /* [CP] Check Pods Manifest.lock */,
 				3D162CDC1DE4F7B700FF6398 /* Sources */,
 				3D162CDD1DE4F7B700FF6398 /* Frameworks */,
 				3D162CDE1DE4F7B700FF6398 /* Resources */,
+				3653165B90ABA719331FA9D6 /* [CP] Embed Pods Frameworks */,
+				A97ECC951AC39B1F1ECF9626 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D162D0B1DE4F7B700FF6398 /* Build configuration list for PBXNativeTarget "venmo-draftTests" */;
 			buildPhases = (
+				81E7728B43EF36D69709E83B /* [CP] Check Pods Manifest.lock */,
 				3D162CF01DE4F7B700FF6398 /* Sources */,
 				3D162CF11DE4F7B700FF6398 /* Frameworks */,
 				3D162CF21DE4F7B700FF6398 /* Resources */,
+				D0428227A1DDDD479574DA9E /* [CP] Embed Pods Frameworks */,
+				016B4A3010100E6EBA7197F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D162D0E1DE4F7B700FF6398 /* Build configuration list for PBXNativeTarget "venmo-draftUITests" */;
 			buildPhases = (
+				4B870DABCB7E5F38B898F8E0 /* [CP] Check Pods Manifest.lock */,
 				3D162CFB1DE4F7B700FF6398 /* Sources */,
 				3D162CFC1DE4F7B700FF6398 /* Frameworks */,
 				3D162CFD1DE4F7B700FF6398 /* Resources */,
+				5C1A6119466CEAE53DB3D1DA /* [CP] Embed Pods Frameworks */,
+				9AE599F61DBACC450CE8CBD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +291,7 @@
 				TargetAttributes = {
 					3D162CDF1DE4F7B700FF6398 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					3D162CF31DE4F7B700FF6398 = {
@@ -232,8 +331,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7708341DEA4FA60027F173 /* CardIO in Resources */,
+				3D7708351DEA4FA60027F173 /* Headers in Resources */,
 				3D162CEE1DE4F7B700FF6398 /* LaunchScreen.storyboard in Resources */,
 				3D162CEB1DE4F7B700FF6398 /* Assets.xcassets in Resources */,
+				3D7708361DEA4FA60027F173 /* PayPal-iOS-SDK in Resources */,
 				3D162CE91DE4F7B700FF6398 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +355,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016B4A3010100E6EBA7197F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venmo-draftTests/Pods-venmo-draftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3653165B90ABA719331FA9D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venmo-draft/Pods-venmo-draft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B870DABCB7E5F38B898F8E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C1A6119466CEAE53DB3D1DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venmo-draftUITests/Pods-venmo-draftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63F4E7EAA6EDC83CD85614CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81E7728B43EF36D69709E83B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE599F61DBACC450CE8CBD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venmo-draftUITests/Pods-venmo-draftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A97ECC951AC39B1F1ECF9626 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venmo-draft/Pods-venmo-draft-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0428227A1DDDD479574DA9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venmo-draftTests/Pods-venmo-draftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D162CDC1DE4F7B700FF6398 /* Sources */ = {
@@ -408,30 +648,40 @@
 		};
 		3D162D091DE4F7B700FF6398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323B27A29101BB7D8781A318 /* Pods-venmo-draft.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "venmo-draft/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "codepath.venmo-draft";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "venmo-draft-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3D162D0A1DE4F7B700FF6398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6614180E4B07312B48D5313 /* Pods-venmo-draft.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "venmo-draft/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "codepath.venmo-draft";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "venmo-draft-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		3D162D0C1DE4F7B700FF6398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DF018BDFAEE9F521817205 /* Pods-venmo-draftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +696,7 @@
 		};
 		3D162D0D1DE4F7B700FF6398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198228A046C3F91AF25929C0 /* Pods-venmo-draftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +711,7 @@
 		};
 		3D162D0F1DE4F7B700FF6398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49679FDCAD2D14FD93761C0E /* Pods-venmo-draftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "venmo-draftUITests/Info.plist";
@@ -473,6 +725,7 @@
 		};
 		3D162D101DE4F7B700FF6398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23F0C7C2475DC8E3EAEF2C9 /* Pods-venmo-draftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "venmo-draftUITests/Info.plist";
@@ -503,6 +756,7 @@
 				3D162D0A1DE4F7B700FF6398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D162D0B1DE4F7B700FF6398 /* Build configuration list for PBXNativeTarget "venmo-draftTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +765,7 @@
 				3D162D0D1DE4F7B700FF6398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D162D0E1DE4F7B700FF6398 /* Build configuration list for PBXNativeTarget "venmo-draftUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +774,7 @@
 				3D162D101DE4F7B700FF6398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
